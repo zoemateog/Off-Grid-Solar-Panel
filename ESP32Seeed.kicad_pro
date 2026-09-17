@@ -70,7 +70,72 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "drill_out_of_range|133635000|100525000|cc8404e9-015b-4197-bcef-19686228b55e|00000000-0000-0000-0000-000000000000",
+          "Default footprint hole config"
+        ],
+        [
+          "drill_out_of_range|133635000|101625000|2ed09460-eb19-404a-8096-9e44501cf13a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|134185000|101075000|2e3baba2-aab4-4b4e-8b55-0e1ac016854b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|134185000|102175000|89e78993-c928-4a66-bd36-f5f7ebd716b8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|134185000|99975000|ca5d60c6-93da-48fa-be2e-b658126a4bba|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|134735000|100525000|2bdc0597-d2cc-4c1a-85ae-28028d42de4f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|134735000|101625000|9398f1a7-2b78-480f-a2da-742b441dc3a4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|135285000|101075000|ea23b8ac-f915-4800-a18f-9e40e0a52891|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|135285000|102175000|95e7b85d-c5e6-4aea-9999-144243b7306e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|135285000|99975000|2f92bc8f-edef-4722-a4f4-8ad4392d2880|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|135835000|100525000|d1601a8e-556d-4b93-8fc5-29d7c76ff268|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|135835000|101625000|eeb05f24-07d1-4f72-b706-4d0b5b9a922e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "hole_clearance|126550000|113385000|c96206ea-f7b6-4d77-8802-114c782fa68e|7176262a-f4af-49ae-b384-f4c87dc95948",
+          ""
+        ],
+        [
+          "hole_clearance|126550000|113385000|e0ed6713-3712-4953-9bd5-04c4024d2c74|7176262a-f4af-49ae-b384-f4c87dc95948",
+          ""
+        ],
+        [
+          "hole_clearance|132650000|113385000|a538ec6c-3565-4aa8-9ccf-44dd43625979|4088cc70-924a-4617-a360-398b03f61208",
+          ""
+        ],
+        [
+          "hole_clearance|132650000|113385000|fd57d518-dddf-4fe8-bf1c-b43a73ab6f77|4088cc70-924a-4617-a360-398b03f61208",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -153,7 +218,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.3,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -524,7 +589,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -673,7 +738,7 @@
         "uuid": "ade8ac70-014a-4392-bd34-ea2a47fe814a"
       }
     ],
-    "used_designators": "U1-5,C1-10,#PWR1-25,J1,R1-11,P1,SW1-2",
+    "used_designators": "U1-5,C1-12,#PWR1-28,R1-12,R14-15,J1-3,SW1-2,P1",
     "variants": []
   },
   "sheets": [
@@ -683,7 +748,11 @@
     ],
     [
       "ee3ecf6c-8920-4903-baea-9e3e61f779c1",
-      "Xiao_Headers"
+      "Main board"
+    ],
+    [
+      "1e551c6f-585d-4df3-a41e-03e5cbce0107",
+      "LuxAndSHT"
     ]
   ],
   "text_variables": {},
