@@ -118,22 +118,6 @@
         [
           "drill_out_of_range|135835000|101625000|eeb05f24-07d1-4f72-b706-4d0b5b9a922e|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "hole_clearance|126550000|113385000|c96206ea-f7b6-4d77-8802-114c782fa68e|7176262a-f4af-49ae-b384-f4c87dc95948",
-          ""
-        ],
-        [
-          "hole_clearance|126550000|113385000|e0ed6713-3712-4953-9bd5-04c4024d2c74|7176262a-f4af-49ae-b384-f4c87dc95948",
-          ""
-        ],
-        [
-          "hole_clearance|132650000|113385000|a538ec6c-3565-4aa8-9ccf-44dd43625979|4088cc70-924a-4617-a360-398b03f61208",
-          ""
-        ],
-        [
-          "hole_clearance|132650000|113385000|fd57d518-dddf-4fe8-bf1c-b43a73ab6f77|4088cc70-924a-4617-a360-398b03f61208",
-          ""
         ]
       ],
       "meta": {
@@ -553,7 +537,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32Seeed.kicad_pro",
+    "filename": "offgridsolarpanel.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -733,8 +717,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ESP32Seeed.kicad_sch",
-        "name": "Root",
+        "filename": "offgridsolarpanel.kicad_sch",
+        "name": "offgridsolarpanel",
         "uuid": "ade8ac70-014a-4392-bd34-ea2a47fe814a"
       }
     ],
